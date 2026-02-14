@@ -1,12 +1,12 @@
 # Specification Validation Report
 
-Generated: 2026-02-14T12:11:09.415Z
+Generated: 2026-02-14T12:11:44.120Z
 
 ## Summary
 - **Status:** Issues Found
 - **Specs Validated:** 7
-- **Critical Issues:** 4
-- **Warnings:** 4
+- **Critical Issues:** 2
+- **Warnings:** 6
 - **Info:** 2
 
 ## Critical Issues
@@ -16,39 +16,35 @@ Generated: 2026-02-14T12:11:09.415Z
 **Fix:** Replace placeholder with actual content
 
 
-### 03-pages.md - Attorney Profiles (3.1-3.3) and Contact Us (9.0)
-**Issue:** Email addresses for all attorneys and the general inquiry email are explicitly marked as 'placeholder, needs confirmation.' These are fundamental for user engagement and lead generation.
-**Fix:** Confirm and update the final, production email addresses for all attorneys and general inquiries within the specification before development proceeds.
-
-
-### 03-pages.md - Section 9. Contact Us, 'Send Us a Message' Form Fields
-**Issue:** The 'How can we help you?' dropdown field on the main contact form is not specified as a 'required' field. This could lead to submissions without clear intent, hindering lead qualification and operational efficiency.
-**Fix:** Update the specification to explicitly mark the 'How can we help you?' dropdown as a required field to ensure vital information is captured for every inquiry.
-
-
-### 03-pages.md - Section 8. Insights (Blog/Articles)
-**Issue:** The specification details the 'Insights' listing page but completely lacks details for the layout, content elements, and functionality of an individual article page. This omission is critical for content creation, development, and user experience.
-**Fix:** Add a new section (e.g., '8.1. Individual Insight Article Page') detailing the structure, required elements (e.g., main content, author bio, publication date, related articles, social sharing), and any specific CTAs for individual insights.
+### 02-features.md, I.B.9 and 03-pages.md
+**Issue:** No content or structure provided for required Legal Disclaimers (Privacy Policy, Terms of Service) pages. These are critical for legal compliance and website completeness.
+**Fix:** Provide full content and URL paths for the Privacy Policy and Terms of Service pages in `03-pages.md`. These pages are legally mandatory for websites.
 
 
 ## Warnings
 
-- **02-features.md - I.C.1.b and 03-pages.md - various service pages CTAs & Contact Us form:** 02-features.md states 'Service-Specific Inquiry Forms: Optionally embedded on relevant service pages,' while 03-pages.md implements this by directing users to a single 'Contact Us' form with a pre-filled dropdown via URL parameters. This represents a functional inconsistency in the specified implementation method.
+- **02-features.md, I.B.6 and 03-pages.md, Homepage & Service Pages:** The specification requires a dedicated section and integrated components for client testimonials/case studies. However, no actual content or detailed structure is provided in `03-pages.md` for either the homepage or individual service pages.
 
 
-- **02-features.md and 03-pages.md (overall):** The specifications do not include a detailed breakdown of the website's footer content. This typically includes copyright information, essential legal links (Privacy Policy, Terms of Service), contact details, and potentially sitemap links or social media icons.
+- **03-pages.md (overall site structure):** There is no content specification for a global footer. The footer is essential for consistent navigation, legal links, contact information, and social media integration across the entire website.
 
 
-- **03-pages.md (All primary pages):** While 02-features.md identifies the need for SEO fields in the CMS, 03-pages.md, which is the content specification, does not include suggested meta titles and meta descriptions for each primary page. This leaves critical SEO content undefined in the content specification phase.
+- **02-features.md, I.C.1. and 03-pages.md, 9. Contact Us:** `02-features.md` explicitly requires CAPTCHA for spam prevention on all forms, but `03-pages.md` does not include or mention a CAPTCHA field or instruction for the 'Request a Consultation' form on the Contact Us page.
 
 
-- **02-features.md - I.B.9 and 03-pages.md (overall):** 02-features.md lists 'Legal Disclaimers: Pages for Privacy Policy, Terms of Service, and any other required legal disclaimers,' but 03-pages.md does not include any content or structure for these crucial legal pages.
+- **03-pages.md, 3.1, 3.2, 3.3 Attorney Profiles:** Attorney email addresses are consistently marked as '(placeholder, needs confirmation)'. These are critical direct contact details and must be finalized before implementation.
+
+
+- **03-pages.md, 5. Commercial Litigation, Key Services:** The 'Business and Commercial Law' sub-service description ('Comprehensive counsel on all aspects of business law') is overly broad. This could imply services outside the firm's stated core focus on commercial litigation, creditors' rights, and real estate, potentially leading to client confusion or misaligned expectations.
+
+
+- **03-pages.md, 8. Insights (Blog/Articles):** While the 'Insights' main page specifies article cards, there is no content or structure provided for the individual article pages (e.g., `/insights/article-slug`). This is crucial for the full functionality of a blog feature.
 
 
 ## Info
 
-- Image specifications are primarily limited to placeholders (e.g., '[Professional headshot]'). While CMS includes a media library, there are no guidelines on image dimensions, aspect ratios, file types, or specific usage contexts beyond general 'optimization.'
+- Individual attorney profiles do not list their specific professional affiliations, memberships, or certifications. This contrasts with the firm's prominent highlighting of its affiliations globally and the `02-features.md` requirement for 'rich profiles'.
 
 
-- The 'How can we help you?' dropdown includes an 'Other' option without specifying if a subsequent text field will appear for users to elaborate on their 'other' inquiry type. This can lead to ambiguous submissions.
+- Beyond global navigation, explicit details for consistent header elements like the firm logo, a prominent main office phone number (with click-to-call), or a primary 'Contact Us' CTA button are not specified in `03-pages.md`.
 
