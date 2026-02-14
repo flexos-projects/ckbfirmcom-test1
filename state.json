@@ -1,7 +1,7 @@
 {
   "projectId": "ckbfirmcom-test1",
   "status": "running",
-  "phase": "setup",
+  "phase": "scrape",
   "progress": {},
   "caches": {},
   "outputs": {
