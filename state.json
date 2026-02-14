@@ -1,7 +1,7 @@
 {
   "projectId": "ckbfirmcom-test1",
-  "status": "running",
-  "phase": "spec",
+  "status": "failed",
+  "phase": "build",
   "progress": {},
   "caches": {},
   "outputs": {
@@ -27,6 +27,14 @@
       "ckbfirmcom-test1/specs/tailwind-tokens.js"
     ]
   },
-  "errors": [],
+  "errors": [
+    {
+      "phase": "build",
+      "task": "phase-c",
+      "error": "Error: No tasks in queue. Run generate-queue first.",
+      "timestamp": "2026-02-14T12:12:53.176Z",
+      "recovered": false
+    }
+  ],
   "startedAt": "2026-02-14T12:00:48.151Z"
 }
