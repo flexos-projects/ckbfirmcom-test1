@@ -1,0 +1,46 @@
+{
+  "projectId": "ckbfirmcom-test1",
+  "generatedAt": "2026-02-14T12:05:24.085Z",
+  "summary": {
+    "totalAssets": 1,
+    "harvest": 0,
+    "replace": 0,
+    "ignore": 1
+  },
+  "assets": [
+    {
+      "id": "asset-001",
+      "sourceUrl": "https://www.ckbfirm.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif",
+      "type": "icon",
+      "category": "utility",
+      "filename": "ajax-loader.gif",
+      "fileType": "gif",
+      "foundOnPage": "https://www.ckbfirm.com/?page_id=18",
+      "quality": "low",
+      "authenticity": "stock",
+      "action": "ignore",
+      "priority": "low",
+      "notes": "Standard AJAX loader GIF from a Contact Form 7 plugin. This is a functional element, not a primary brand asset, and would be replaced by the new site's chosen form solution or design system."
+    }
+  ],
+  "photographyBrief": {
+    "needed": true,
+    "shots": [
+      "Professional, authentic headshots of all attorneys.",
+      "Team photo(s) showcasing the firm's members.",
+      "Interior and exterior shots of the office environment (e.g., lobby, conference rooms, individual offices).",
+      "Candid shots of attorneys working or interacting in a professional setting (e.g., in meetings, reviewing documents)."
+    ],
+    "style": "Professional, sophisticated, authentic, and modern. Emphasize trust, expertise, and approachability. Utilize natural lighting where possible, avoiding overly staged or generic stock photo aesthetics.",
+    "priority": "critical"
+  },
+  "stockRecommendations": {
+    "needed": false,
+    "types": [],
+    "style": ""
+  },
+  "generationNeeds": {
+    "images": [],
+    "videos": []
+  }
+}
