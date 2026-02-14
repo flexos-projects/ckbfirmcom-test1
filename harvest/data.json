@@ -1,0 +1,98 @@
+{
+  "business": {
+    "legalName": "The CKB Firm",
+    "brandName": "The CKB Firm",
+    "industry": "Legal Services",
+    "businessType": "Law Firm"
+  },
+  "contact": {
+    "primary": {
+      "phone": "+1 (312) 704-8510"
+    }
+  },
+  "locations": [
+    {
+      "name": "Main Office",
+      "type": "Headquarters",
+      "address": {
+        "street": "125 S. Clark Street Suite 1700",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60603",
+        "country": "USA"
+      },
+      "phone": "+1 (312) 704-8510"
+    }
+  ],
+  "team": [
+    {
+      "name": "Michael S. Baim",
+      "title": "Managing Partner",
+      "bioFacts": [
+        "Graduate of Chicago Kent College of Law in Chicago, Illinois",
+        "Completed undergraduate studies in Economics at University of Illinois in Champaign, Illinois",
+        "Prior to becoming the managing partner with the firm, he was the managing partner at Baim & Lepak, LLC. in Chicago, Illinois",
+        "Practice area is limited to commercial litigation, creditor/debtor actions, collections, real estate",
+        "Represents several large and medium size publicly traded and privately held businesses",
+        "Bar Admissions: Illinois, 1990",
+        "Past Employment Positions: Baim & Lepak, LLC., Managing Partner; Law Offices of Michael S. Baim"
+      ],
+      "photoAvailable": false
+    },
+    {
+      "name": "Patricia Lepak",
+      "title": "Chief Compliance Officer",
+      "bioFacts": [
+        "Graduate of DePaul University in Chicago, Illinois",
+        "Completed undergraduate studies in English at University of Illinois in Champaign, Illinois",
+        "Practice area is limited to commercial litigation, creditor/debtor actions and collections",
+        "Bar Admissions: Illinois, 1995",
+        "Past Employment Positions: Baim & Lepak, LLC., Partner; Law Offices of Michael S. Baim"
+      ],
+      "photoAvailable": false
+    },
+    {
+      "name": "Brian Berlin",
+      "title": "Senior Trial Attorney",
+      "bioFacts": [
+        "Graduate of The John Marshall Law School in Chicago, Illinois",
+        "Completed undergraduate studies in Political Science at University of Illinois",
+        "Extensive experience in Creditors Rights",
+        "Practice area is limited to commercial litigation, creditor/debtor actions, collections, and real estate",
+        "Represents several large and medium size publicly traded and privately held businesses",
+        "Bar Admissions: Illinois, 2008"
+      ],
+      "photoAvailable": false
+    }
+  ],
+  "services": [
+    {
+      "id": "service-commercial-litigation",
+      "name": "Commercial Litigation",
+      "category": "Legal Services",
+      "description": "Business and Commercial Law, Breach of Contract, Counterclaim Defense"
+    },
+    {
+      "id": "service-creditors-rights",
+      "name": "Creditors' Rights",
+      "category": "Legal Services",
+      "description": "Pre-suit, Litigation, Post Judgment"
+    },
+    {
+      "id": "service-real-estate",
+      "name": "Real Estate",
+      "category": "Legal Services",
+      "description": "Commercial and Residential Closing"
+    }
+  ],
+  "proof": {
+    "certifications": [
+      "Commercial Law League of America (CLLA)",
+      "The National Creditors Bar Association (NARCA)",
+      "The American Lawyers Quarterly (ALQ)",
+      "The Forwarder’s List",
+      "Illinois Creditors Bar Association (ILCBA)",
+      "The General Bar"
+    ]
+  }
+}
