@@ -1,0 +1,12 @@
+{
+  "projectId": "ckbfirmcom-test1",
+  "status": "running",
+  "phase": "setup",
+  "progress": {},
+  "caches": {},
+  "outputs": {
+    "repoUrl": "https://github.com/flexos-projects/ckbfirmcom-test1"
+  },
+  "errors": [],
+  "startedAt": "2026-02-14T12:00:48.151Z"
+}
